@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.fullbody{
+    box-sizing: border-box;
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+/* Header Starts..... */
+
+.header{
+    background-color: lightseagreen;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+.hicon{
+    width: 60%;
+    padding-left: 80px;
+}
+
+.header > .hicon > i{
+    height: 100px;
+    width: 100px;
+    border: 3px solid white;
+    padding: 18px;
+    border-radius: 50%;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+.menu{
+    width: 40%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.menu > h2{
+    text-transform: uppercase;
+    padding: 20px 20px;
+    color: white;
+}
+.menu > h2 > a{
+    text-decoration: none;
+    color: white;
+}
+.menu > h2 > a:hover{
+    color: crimson;
+}
+
+
+
+/* Middle Starts........... */
+
+
+.middle{
+    background-image: url("background.jfif");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.middle > .line1{
+    text-align: center;
+    padding-top: 150px;
+    font-size: 30px;
+    font-family: 'Courgette', cursive;
+}
+.middle > .line1 > h1{
+    background-color: yellow;
+    width:820px;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+.line2{
+    text-align: center;
+    padding: 30px 0;
+    font-size: 35px;
+}
+.middle > .line2 > p{
+    background-color: green;
+    width:600px;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 15px 0;
+    color: white;
+    letter-spacing: 1px;
+}
+.line3{
+    text-align: center;
+    padding-bottom: 150px;
+}
+.middle > .line3 > button{
+    background-color: green;
+    width:200px;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 15px 0;
+    color: white;
+    font-size: 20px;
+}
+
+
+/* About US Starts...... */
+
+
+.aboutus{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 100px;
+
+}
+.aboutus > .title {
+    text-align: center;
+    padding-top: 50px;
+}
+.aboutus > p{
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+
+/* FOOD MENU Starts ....... */
+
+.foodmenu{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.card{
+    box-sizing: border-box;
+    width: 20%;
+    margin: 0 20px;
+}
+.cardimg > img{
+    width: 100%;
+    height: 200px;
+}
+.cardtitle{
+    text-align: center;
+    color: white;
+    background-color: green;
+    width: 100%;
+    padding: 10px 0;
+}
+.details{
+    background-color: gray;
+    text-align: center;
+    font-size: 25px;
+}
+.details > p{
+    padding: 10px 0;
+}
+.card:hover{
+    box-shadow: 1px 4px 6px black;
+    transform: scale(1.1,1.1);
+}
+
+
+/* MAP / CONTACTS Starts....... */
+
+
+.contact{
+    background-color: rgba(29, 7, 65, 0.781);
+    padding: 50px;
+}
+.info{
+    float: right;
+    text-align: center;
+    color: white ;
+    padding: 50px 150px;
+}
+.info > p{
+    padding: 5px;
+}
+
+
+/* footer...................... */
+
+.footer{
+    background-color: rgba(29, 7, 65, 0.876);
+    padding: 30px;
+    color: white;
+
+    font-size: 18px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.footer > p{
+    width: 50%;
+}
+.ficon{
+    width: 50%;
+    padding-left: 350px;
+}
+.ficon > i{
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 25px;
+    margin: 10px;
+    
+}
+.ficon >a > i{
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 25px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    
+}
